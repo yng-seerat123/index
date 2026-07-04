@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS Travels And Tours| Your Dream Getaway</title>
+    <style>
+        .container{
+             display:flex;
+             justify-content: center;
+             flex-wrap: wrap;
+             padding:20px;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGd_99M4g1JNQ6KXtSTUuCfs5M0th8C2GhJP4Bswa3biunW7ZcmWyMQeT&s=10" alt="SS travels official logo" width="80">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-globe-americas"></i> ExploreTravel</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#destinations">Destinations</a><br>
+            <a href="#packages">Packages</a><br>
+            <a href="#contact">Contact : 03219295671</a>
+        </nav>
+        <a href="#contact" class="book-btn">Book Now</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Start Your Journey To The Next Adventure</h3>
+            <p>Discover the best places with us at an affordable price </p>
+        </div>
+        
+        <!-- Booking/Search Widget -->
+        <div class="search-container">
+            <form action="">
+                <div class="inputBox">
+                    <span>Where to?</span>
+                    <input type="text" placeholder="Search places">
+                </div>
+                <div class="inputBox">
+                    <span>When?</span>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <span>Guests</span>
+                    <input type="number" placeholder="Number of people">
+                </div>
+                <input type="submit" value="Search Now" class="search-btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Featured Packages Section -->
+    <section class="packages" id="packages">
+        <h1 class="heading"> Featured <span>Packages</span> </h1>
+        
+        <div class="box-container">
+            <div class="box">
+                <img src="https://trangoadventure.com/wp-content/uploads/2020/06/Adventure-travel-1024x530.jpeg " alt="Mountain Adventure" width="150px>">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2vcxUSYv8VY1z2TdcQngwMxgAkDGIwAm0MR9OjxbOh0C_QJrO7GykVfs&s=10" alt="makkah" width="140px">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Swiss Alps</h3>
+                    <p>Experience the thrill of the mountains with our 5-day guided tour.</p>
+                    <div class="price">$7000,$19000 <span></span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1603477849227-705c424d1d80?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJvcGljYWwlMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D" alt="Tropical Beach" width="150">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Maldives</h3>
+                    <p>Relax in overwater bungalows with crystal clear blue water.</p>
+                    <div class="price">$1200 <span>$1500</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
